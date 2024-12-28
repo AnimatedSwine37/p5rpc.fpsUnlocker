@@ -1,0 +1,24 @@
+{
+  "ModId": "p5rpc.fpsUnlocker",
+  "ModName": "FPS Unlocker",
+  "ModAuthor": "AnimatedSwine37",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Unlocks the game's framerate",
+  "ModDll": "p5rpc.fpsUnlocker.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/p5rpc.fpsUnlocker.dll",
+  "ModR2RManagedDll64": "x64/p5rpc.fpsUnlocker.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "p5rpc.fpsUnlocker.ReleaseMetadata.json",
+  "PluginData": {},
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "reloaded.sharedlib.hooks",
+    "Reloaded.Memory.SigScan.ReloadedII"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": ["p5r.exe"],
+  "ProjectUrl": ""
+}
