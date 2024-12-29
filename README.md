@@ -1,5 +1,8 @@
 # P5R FPS Unlocker
+![Fps Unlocker](https://github.com/user-attachments/assets/5e475e72-17bb-4660-94d5-e7fb13d815b6)
+
 A mod that changes the FPS cap in P5R PC.
+Also on [GameBanana](https://gamebanana.com/mods/565381)!
 
 ## FPS Cap
 By default the cap is set to a large number (99999) to make the FPS effectively uncapped. 
