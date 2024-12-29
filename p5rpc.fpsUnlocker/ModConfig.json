@@ -3,22 +3,60 @@
   "ModName": "FPS Unlocker",
   "ModAuthor": "AnimatedSwine37",
   "ModVersion": "1.0.0",
-  "ModDescription": "Unlocks the game's framerate",
+  "ModDescription": "Unlocks the game\u0027s framerate",
   "ModDll": "p5rpc.fpsUnlocker.dll",
   "ModIcon": "Preview.png",
   "ModR2RManagedDll32": "x86/p5rpc.fpsUnlocker.dll",
   "ModR2RManagedDll64": "x64/p5rpc.fpsUnlocker.dll",
   "ModNativeDll32": "",
   "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": false,
+  "HasExports": false,
   "IsLibrary": false,
   "ReleaseMetadataFileName": "p5rpc.fpsUnlocker.ReleaseMetadata.json",
-  "PluginData": {},
+  "PluginData": {
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "Reloaded.Memory.SigScan.ReloadedII": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Memory.SigScan",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
+        },
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        }
+      }
+    },
+    "GitHubRelease": {
+      "UserName": "AnimatedSwine37",
+      "RepositoryName": "p5rpc.fpsUnlocker",
+      "UseReleaseTag": true,
+      "AssetFileName": "Mod.zip"
+    },
+    "GameBanana": {
+      "ItemType": "Mod",
+      "ItemId": 565381
+    }
+  },
   "IsUniversalMod": false,
   "ModDependencies": [
-    "reloaded.sharedlib.hooks",
-    "Reloaded.Memory.SigScan.ReloadedII"
+    "Reloaded.Memory.SigScan.ReloadedII",
+    "reloaded.sharedlib.hooks"
   ],
   "OptionalDependencies": [],
-  "SupportedAppId": ["p5r.exe"],
-  "ProjectUrl": ""
+  "SupportedAppId": [
+    "p5r.exe"
+  ],
+  "ProjectUrl": "https://gamebanana.com/mods/565381"
 }
